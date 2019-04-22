@@ -1,0 +1,1 @@
+{"Heat_Lamp": {"state": 0, "pin": 25}, "Upper_Light": {"state": 0, "pin": 8}, "Filter": {"state": 1, "pin": 9}, "Lower_Light": {"state": 0, "pin": 11}}
