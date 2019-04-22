@@ -1,7 +1,9 @@
 # TerrapinTank
+
 Temperature checking, photo taking, relay operating Terrapin setup
 
-Uses
+# Requires
+
 Adafruit_Python_DHT with DHT11 Temperature hummidity sensor chip, 4 channel 5v relay switch.
 
 Pinout for relay configurable in /home/pi/python/relay/states.json change names etc, groupings i.e. lights, all, lightsandheat are currently hard coded into /home/pi/python/relay/change.py
@@ -10,13 +12,20 @@ The relay allows for hardware default on or off. I was tempted to choose hardwar
 
 I use Android app Raspberry SSH Custom Buttons by Knowlesonline for manual control and call the python script directly.
 
-rc.local
+# rc.local
+
 python3 /home/pi/python/relay/restore.py
 
-crontab
+# crontab
+
 */10 *    * * *  root    python3 /home/pi/python/tempsensor/temp.py >> /var/log/tempsensor.csv
+
 */15 *    * * *  root    /home/pi/takepic.sh
+
 */10 *    * * *  root    /home/pi/copylogstoserver.sh
+
 0  8      * * *  pi      python3 /home/pi/python/relay/change.py lightsandheat on
+
 30 00     * * *  pi      python3 /home/pi/python/relay/change.py Heat_Lamp off
+
 0  1      * * *  pi      python3 /home/pi/python/relay/change.py lights off
