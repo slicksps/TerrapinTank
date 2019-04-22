@@ -26,6 +26,6 @@ python3 /home/pi/python/relay/restore.py
 
 0  8      * * *  pi      python3 /home/pi/python/relay/change.py lightsandheat on
 
-30 00     * * *  pi      python3 /home/pi/python/relay/change.py Heat_Lamp off
+30 0      * * *  pi      python3 /home/pi/python/relay/change.py Heat_Lamp off
 
 0  1      * * *  pi      python3 /home/pi/python/relay/change.py lights off
