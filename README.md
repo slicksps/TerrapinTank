@@ -1,6 +1,6 @@
 # TerrapinTank
 
-Temperature checking, photo taking, relay operating Terrapin setup
+Temperature checking, photo taking, relay operating Terrapin setup https://imgur.com/a/KStmReV
 
 # Requires
 
@@ -13,6 +13,8 @@ The relay allows for hardware default on or off. I was tempted to choose hardwar
 I use Android app Raspberry SSH Custom Buttons by Knowlesonline for manual control and call the python script directly.
 
 # rc.local
+
+This restores all relays in case of reboot or power failure, uses state.json to determine what ould switch on.
 
 python3 /home/pi/python/relay/restore.py
 
