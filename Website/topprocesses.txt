@@ -1,0 +1,75 @@
+top - 02:50:02 up 13:22,  0 users,  load average: 0.14, 0.23, 0.29
+Tasks:  68 total,   2 running,  40 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.4 us,  3.1 sy,  0.0 ni, 89.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st
+KiB Mem :   378884 total,    37288 free,    31900 used,   309696 buff/cache
+KiB Swap:   102396 total,   102396 free,        0 used.   273320 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+21388 root      20   0   10816   7100   4824 R 69.2  1.9   0:00.52 python3
+21409 root      20   0    8100   3028   2636 R 15.4  0.8   0:00.12 top
+    1 root      20   0    9712   6140   4984 S  0.0  1.6   4:47.19 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.04 kthreadd
+    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:0H
+    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_wq
+    7 root      20   0       0      0      0 S  0.0  0.0   0:42.66 ksoftirqd/0
+    8 root      20   0       0      0      0 S  0.0  0.0   0:00.01 kdevtmpfs
+    9 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns
+   11 root      20   0       0      0      0 S  0.0  0.0   0:00.04 khungtaskd
+   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper
+   13 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 writeback
+   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kcompactd0
+   15 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 crypto
+   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kblockd
+   17 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 watchdogd
+   18 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rpciod
+   19 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 xprtiod
+   22 root      20   0       0      0      0 S  0.0  0.0   0:01.50 kswapd0
+   23 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 nfsiod
+   33 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kthrotld
+   34 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 iscsi_eh
+   35 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 dwc_otg
+   36 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 DWC Notific+
+   37 root       1 -19       0      0      0 S  0.0  0.0   0:00.87 vchiq-slot/0
+   38 root       1 -19       0      0      0 S  0.0  0.0   0:00.02 vchiq-recy/0
+   39 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 vchiq-sync/0
+   40 root      20   0       0      0      0 S  0.0  0.0   0:00.00 vchiq-keep/0
+   41 root      10 -10       0      0      0 S  0.0  0.0   0:00.00 SMIO
+   45 root      20   0       0      0      0 S  0.0  0.0   0:06.82 mmcqd/0
+   46 root      20   0       0      0      0 S  0.0  0.0   0:01.61 jbd2/mmcblk+
+   47 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 ext4-rsv-co+
+   48 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 ipv6_addrco+
+   65 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:1H
+   73 root      20   0   27972   6612   6196 S  0.0  1.7   4:04.48 systemd-jou+
+  100 root      20   0   14548   3096   2472 S  0.0  0.8   0:01.00 systemd-ude+
+  176 systemd+  20   0   17268   4112   3664 S  0.0  1.1   0:00.54 systemd-tim+
+  202 root      20   0   23164   3288   2328 S  0.0  0.9   0:41.53 rsyslogd
+  205 root      20   0    7404   4364   3912 S  0.0  1.2   1:38.50 systemd-log+
+  221 message+  20   0    6488   3668   3156 S  0.0  1.0   4:19.64 dbus-daemon
+  227 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 cfg80211
+  228 root      20   0    2864   1880   1544 S  0.0  0.5   0:00.97 dhcpcd
+  232 root      20   0    9984   4020   3636 S  0.0  1.1   0:00.74 wpa_supplic+
+  234 avahi     20   0    6384   3124   2772 S  0.0  0.8   0:34.08 avahi-daemon
+  238 nobody    20   0    5276   2508   2276 S  0.0  0.7   0:00.97 thd
+  243 avahi     20   0    6384   1556   1256 S  0.0  0.4   0:00.00 avahi-daemon
+  301 root      20   0    5680   2700   2460 S  0.0  0.7   0:00.05 vncserver-x+
+  311 root      20   0   21036  10044   8524 S  0.0  2.7   0:07.09 vncserver-x+
+  321 root      20   0    4176   1628   1496 S  0.0  0.4   0:00.02 agetty
+  323 root      20   0    3952   1904   1776 S  0.0  0.5   0:00.02 agetty
+  325 root      20   0   10192   5268   4724 S  0.0  1.4   0:05.88 sshd
+  376 root      20   0   46200  12992   6356 S  0.0  3.4   6:57.62 fail2ban-se+
+17167 root      20   0    5284   2424   2212 S  0.0  0.6   0:00.08 cron
+18081 root      20   0       0      0      0 I  0.0  0.0   0:00.78 kworker/0:0
+19532 root      20   0       0      0      0 I  0.0  0.0   0:00.45 kworker/0:3
+20582 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:1
+20638 root      20   0       0      0      0 I  0.0  0.0   0:00.11 kworker/u2:2
+20952 root      20   0       0      0      0 I  0.0  0.0   0:00.07 kworker/0:2
+21011 root      20   0       0      0      0 I  0.0  0.0   0:00.00 kworker/u2:0
+21117 root      20   0       0      0      0 I  0.0  0.0   0:00.18 kworker/0:4
+21373 root      20   0    6776   2552   2200 S  0.0  0.7   0:00.03 cron
+21374 root      20   0    6776   2552   2200 S  0.0  0.7   0:00.03 cron
+21376 root      20   0       0      0      0 I  0.0  0.0   0:00.00 kworker/u2:1
+21382 root      20   0    1880   1112   1036 S  0.0  0.3   0:00.01 sh
+21383 root      20   0    1880   1132   1056 S  0.0  0.3   0:00.01 sh
+21384 root      20   0    1880   1080   1008 S  0.0  0.3   0:00.00 sh
+21385 root      20   0    1880   1120   1044 S  0.0  0.3   0:00.02 sh
+21405 root      20   0    7592   3336   2944 S  0.0  0.9   0:00.05 sudo
